@@ -59,7 +59,7 @@ function handleHold() {
   if (player1.classList.contains("player--active")) {
     player1Score += currScore;
     activePlayerScore.textContent = player1Score;
-    if (player1Score >= 30) {
+    if (player1Score >= 100) {
       player1.classList.add("player--win");
       gameFinished = true;
     } else {
@@ -70,7 +70,7 @@ function handleHold() {
   } else {
     player2Score += currScore;
     activePlayerScore.textContent = player2Score;
-    if (player2Score >= 30) {
+    if (player2Score >= 100) {
       player2.classList.add("player--win");
       gameFinished = true;
     } else {
