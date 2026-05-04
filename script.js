@@ -42,7 +42,6 @@ function handleDiceRoll() {
   diceNumber = diceNumberGenerator();
   const diceImage = document.querySelector(`.dice-img-${diceNumber}`);
   diceImage.classList.remove("hidden");
-  console.log(activePlayer);
   if (diceNumber === 1) {
     currScore = 0;
     activePlayerCurrentScore.textContent = currScore;

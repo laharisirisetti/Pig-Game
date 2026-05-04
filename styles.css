@@ -92,6 +92,12 @@ body {
   font-size: 1.8rem;
   text-transform: uppercase;
   color: #666;
+
+  transition: transform 0.3s ease;
+}
+
+.btn:active {
+  transform: translate(-50%, 5px);
 }
 
 .btn--new {
